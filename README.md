@@ -20,6 +20,6 @@ Finally, compile and run the trafAld.c C program to create traffic attributes:
 
 gcc trafAld.c -o trafAld.out # compile. it arises some warnings
 
-./trafAld.out conn_sort.list # it creates trafAld.list which is the gureKDDCup99 
+./trafAld.out conn_sort.list # it creates trafAld.list which includes the gureKDDCup99 attributes
 
 For each connection the attributes of trafAld.list: num\_conn, startTimet, orig\_pt, resp\_pt, orig\_ht, resp\_ht, duration, protocol, resp\_pt, flag, src\_bytes, dst\_bytes, land, wrong\_fragment, urg, hot, num\_failed\_logins, logged\_in, num\_compromised, root\_shell, su\_attempted, num\_root, num\_file\_creations, num\_shells, num\_access\_files, num\_outbound\_cmds, is\_hot\_login, is\_guest\_login, count\_sec, srv\_count\_sec, serror\_rate\_sec, srv\_serror\_rate\_sec, rerror\_rate\_sec, srv\_error\_rate\_sec, same\_srv\_rate\_sec, diff\_srv\_rate\_sec, srv\_diff\_host\_rate\_sec, count\_100, srv\_count\_100, same\_srv\_rate\_100, diff\_srv\_rate\_100, same\_src\_port\_rate\_100, srv\_diff\_host\_rate\_100, serror\_rate\_100, srv\_serror\_rate\_100, rerror\_rate\_100, srv\_rerror\_rate\_100.
